@@ -1,0 +1,38 @@
+#include <iostream>
+#include <climits>  // For INT_MIN
+using namespace std;
+
+int main() {
+    int n;
+     
+    cout<<"enter the size of the array";
+    cin>>n;
+    
+    if(n<2){
+        cout<<"array shall haveatt least two elements";
+    return 1;
+        
+    }
+    int arr[n];
+    
+    cout<<"enter the elements of array";
+    for(int  i=0;i<n;i++){
+        cin>>arr[i];
+        
+    }
+    int sum=0;
+  
+     for(int i=0;i<n;i++){
+         sum+=arr[i];
+     }
+     cout<<"sum is"<<sum<<endl;
+     
+     int average;
+     
+     average = sum/n;
+     
+     cout<<"average is "<<average<<endl;
+     
+     
+  return  0;
+  }
