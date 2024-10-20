@@ -1,0 +1,29 @@
+import java.util.*;
+
+public class Main {
+    
+    public static int array(int num[] ) {
+        int largest = Integer.MIN_VALUE;
+        int smallest = Integer.MAX_VALUE;
+        
+        for (int i = 0; i < num.length; i++) {
+            if (largest<num[i]) {
+                largest = num[i];
+            }
+            if (smallest>num[i]) {
+                smallest = num[i];
+            }
+        }
+        System.out.print("larggest is "+largest);
+        return smallest;
+    }
+
+    public static void main(String[] args) {
+        int num[] = {12, 43, 343, 43, 66, 11, 3, 4, 56, 6, 5};
+        
+        System.out.print("the smallest  is "+ array(num));
+
+      
+       
+    }
+}
