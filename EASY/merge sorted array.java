@@ -14,7 +14,7 @@ public class Solution {
                 nums1[k] = nums2[j];
                 j--;
             }
-            k--;
+            k--; 
         }
     }
 }
