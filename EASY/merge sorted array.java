@@ -11,7 +11,7 @@ public class Solution {
                 nums1[k] = nums1[i];
                 i--;
             } else {
-                nums1[k] = nums2[j];
+                nums1[k] = nums2[j]; 
                 j--;
             }
             k--; 
