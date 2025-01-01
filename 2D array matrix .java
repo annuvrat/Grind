@@ -12,7 +12,7 @@ public class Main {
             for (int j = 0; j < m; j++) {
                 matrix[i][j] = sc.nextInt();
             }
-        }
+        } 
 
         // Output the matrix
         System.out.println("The matrix is:");
