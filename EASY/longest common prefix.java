@@ -4,7 +4,7 @@ class Solution {
         if (strs == null || strs.length == 0) return "";
  
        
-        for (int index = 0; index < strs[0].length(); index++) {
+        for (int index = 0; index < strs[0].length(); index++) { 
             char currentChar = strs[0].charAt(index);
            
             for (int stringIndex = 1; stringIndex < strs.length; stringIndex++) {
