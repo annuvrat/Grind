@@ -4,7 +4,7 @@ public class Main {
         int[] arr = {0, 2, 5, 0, 6};
 
         int index = 0; // tracks where to place non-zero elements
-
+ 
         // Step 1: Move all non-zero elements forward
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] != 0) {
